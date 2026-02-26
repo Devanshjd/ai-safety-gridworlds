@@ -39,3 +39,22 @@ Each environment is designed to test and demonstrate how an agent’s policy can
 ---
 
 ## 📁 Repository Structure
+ai-safety-gridworlds/
+├── src/ # Environment + agent code
+├── notebooks/ # Experiments and analysis
+├── results/ # Logs / output tables
+├── images/ # Plots (heatmaps, paths, reward curves)
+├── requirements.txt
+└── README.md
+
+
+---
+
+## ▶️ How to Run
+
+### 1) Install dependencies
+pip install -r requirements.txt
+2) Run experiments (example)
+python src/run_experiments.py
+
+If your entry file has a different name (e.g., main.py or a notebook), update the command accordingly.
